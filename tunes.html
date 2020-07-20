@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+<h2>What song will you play?</h2>
+<input type="text" id="request">
+<button class="button" type="submit" onclick="playMusic()">Play!</button>
+    </div>
+<style>
+    html {
+        background-color: lavenderblush;
+    }
+    .container {
+        text-align: center;
+        margin-top: 10vh;
+        margin-left: 30vh;
+        margin-right: 30vh;
+        border: 5px;
+        border-style: solid;
+        border-color: steelblue;
+        padding-bottom: 5vh;
+        color: indigo;
+    }
+    .button {
+        color: mistyrose;
+        background-color: indigo;
+    }
+    .button:focus {
+        color: indigo;
+        background-color: mistyrose;
+    }
+    p {
+        text-align: center;
+        margin-bottom: 10vh;
+        margin-left: 30vh;
+        margin-right: 30vh;
+        border: 5px;
+        border-style: solid;
+        border-color: steelblue;
+        padding: 5vh;
+        color: indigo;
+    }
+</style>
+    <p id="practice"></p>
+    <script src="tunes.js"></script>
+</body>
+</html>
