@@ -26,9 +26,13 @@ function count(x, y){
 }
 //count(25, 30);
 
-//i know this is wrong but i'm still working through the homework!
-function tooManyCats(0, infinite) {
-    if (cats >= 4){
-        console.log("too many cats!");
-    }
+var cats = 3;
+
+function addCats (x) {
+    console.log(x + cats);
 }
+addCats(10);
+
+(function () {
+    console.log("success!");
+})();
