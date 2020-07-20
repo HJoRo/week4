@@ -1,20 +1,21 @@
+var cats = 3;
 
 function addNum (x, y){
     return x + y;
 }
-console.log(addNum(5, 5));
+//console.log(addNum(5, 5));
 
 function multNum (x, y){
     return x * y;
 }
-console.log(multNum(5, 5));
+//console.log(multNum(5, 5));
 
 function count(x, y){
     for(x; x <= y; x++){
         console.log(x);
     }
 }
-count(25, 30);
+//count(25, 30);
 
 var num = 10
 function count(x, y){
@@ -23,4 +24,11 @@ function count(x, y){
         console.log(x + num);
     }
 }
-count(25, 30);
+//count(25, 30);
+
+//i know this is wrong but i'm still working through the homework!
+function tooManyCats(0, infinite) {
+    if (cats >= 4){
+        console.log("too many cats!");
+    }
+}
